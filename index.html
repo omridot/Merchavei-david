@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"></script>
+    <style>
+        @media only screen and (max-width: 992px) {
+            .video-container{
+                    height: 100%! important;
+                }
+            .ImgSynagouge {
+                MARGIN-LEFT: 0% !important;
+                MARGIN-TOP: -2% !important;
+            }
+
+            /*change topic accordinly*/
+            .headerOnVideo{
+                    line-height: 0.85em!important;
+    margin-top: 53%!important;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 1em!important;
+    font-family: FreightDispProMedium-Italic;
+    visibility: visible;
+    animation-name: zoomIn;
+    color: white!important;
+    
+            }
+            .FirstH1OnVideo{
+text-align:center;
+margin-left:unset!important;
+            }
+            .SecondH1OnVideo{
+                text-align:center;
+                margin-left:unset!important;
+            }
+           .img-icon{
+                width: 120px!important;
+         margin-bottom: 70%;
+    margin-left: 0;
+            }
+           .div-img-icon {
+    margin-bottom: 168%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+           .WhoAreWe{
+               margin-top: 0%!important;
+    color: #613232!important;
+           }
+
+          .MdavidTopic {
+               width: 59%!important;
+    line-height: .85em!important;
+    margin-bottom: 20%!important;
+    z-index: 1;
+    position: absolute;
+    bottom: 58%!important;
+    left: 24%!important;
+           }
+          .explanationFirst{
+              margin-top: 2%!important;
+    padding-left: 0%!important;
+    padding-right: 0%!important;
+
+          }
+        }
+        </style>
+        <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="section">
+        
+        <div class="img-icon">
+
+            <img class="div-img-icon img-icon" src="images/mix-new-black.png" style="width:188px;height:auto; z-index:1; padding-top:0%; margin-right:170px;">
+        </div>
+        <div>
+            <img class="MdavidTopic" src="images/Merchavei.png" style="width:272px; line-height: .85em; margin-bottom:15px; z-index:1; position:absolute; bottom: 58%;
+            left: 43%;">
+
+        </div>
+            
+        <div class="wow zoomIn headerOnVideo" data-wow-delay:3sc style="line-height: .85em; margin-bottom:0; z-index:1; position:absolute; color:white; font-weight:400; font-size:1.5em; font-family: 'FreightDispProMedium-Italic'; text-shadow: 2px 2px 2px #01321f;">
+            <br>
+            <h1 class="FirstH1OnVideo">A Torah based community </h1>
+
+            <h1 class="SecondH1OnVideo" style="margin-left:23%; width:inherit;"> in Gush Etzion.</h1>
+        </div>
+        <!---
+
+
+                font-size: 3.75em;
+                line-height: .85em;-->
+
+        <div class="video-container">
+            <style scoped>
+                .video-container >video{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            </style>
+           <video autoplay loop poster="images/poster" preload="auto" muted> <source src="~/video/joined-all-720.mp4" type="video/mp4"></video>
+        </div>
+    </div>
+    
+    <div class="padding" style="background-color:white;">
+        <div class="row" style="background-color:#727b77;">
+            <div class="col-lg-6" style="background:url(/images/backgroud-div-beginningS.JPG) no-repeat center; background-size:cover; position:relative;">
+                <a asp-area="" asp-controller="Home" asp-action="About" style="z-index:20; width:100%;position: absolute;height: 100%"></a>
+
+                <h1 class="WhoAreWe" style="color:white; font-family:'FreightDispProMedium-Italic';margin-top: 28%; text-align: center;font-weight:400; font-size:2.7em;">WHO ARE WE? </h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <!--- <img src="/images/backgroud-div-beginning.JPG" style="width:100%;">-->
+
+            </div>
+            <div class="col-lg-6" style="text-align:center;color:#ccc;">
+                <div class="explanationFirst" style="margin-top:7%; padding-left:20%;padding-right:20%;">
+
+                    <p>
+                        Merchavei David is a settlement in Israel which is loacted in the area of Judea and Samaria.
+                        our settlement is composed of a very diverse community of people, Baalei teshuva,people who were raised religious, as well as ultra-orthodox.
+
+                        We live together in harmony with a common goal of settling the Land of Israel,
+                        Land of milk and honey.
+                        In this incredible stretch of land, we decided to return to a simpler way of life, 
+                        with the belief that this is our calling to settle the land in these areas, even if it's not always, entirely comfortable.
+                        
+                    </p>
+
+                    <h3>
+                        you are welcome to get to know us through our website, browse through our pictures and the information online.
+                    </h3>
+               <br>
+                    <a asp-area="" asp-controller="Home" asp-action="About" class="button-for-about-us" style="font-family:Plantin, serif;border: white;border-style: solid;background-color: #727b77;padding: 5px 5px 5px 5px; color:white ; transition: all 280ms ease-in-out; text-decoration:none; text-transform: uppercase;"> Learn more about us</a>
+                    <style scoped>
+                        .button-for-about-us:hover {
+                            background-color: white !important;
+                            color: black !important;
+                            text-decoration: none;
+                        }
+                    </style>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="padding" style="background-color:white;">
+        <div class="container container-main">
+            <div class="row" id="lefti">
+                <div class="col-lg-6 text-center  " style="MARGIN-LEFT: -2%;">
+                    <br>
+
+                    <h1 class="Header_help_donate "> Help us build our synagouge!</h1>
+                    <p class="lead">
+                        In the wake of demographic growth over the past few years, the community is now in urgent need of a synagogue and a women’s mikveh. The structure that presently serves as a synagogue is a mobile unit. Despite numerous extensions and renovations undertaken over the years funded by the residents,
+                        it is too small to accommodate the congregation. On festivals many worshippers stand outside for lack of space.
+                        unfortunately, we don't receive financial aid from any single person nor the state or any other foreign body that assists us, that's why we started to collect donations in the purpose of building a new and respectable synagogue that will service all of the residents.
+
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="ImgSynagouge" src="images/Synagogue-icon.png" style="MARGIN-LEFT: 14%;MARGIN-TOP: -14%;">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="fixed">
+        <div class="color_overlay"> </div>
+        <br> 3
+        <br> 3
+        <br> 3
+        <br> 33
+        <br> 3
+        <br> 3
+        <br> 3
+        <br> 3
+        <br> 3
+        <br> 3
+        <br> 3
+        <br> 3
+        <br> 33
+        <br> 3
+        <br> 3
+        <br> 3
+    </div>
+
+    <div class="padding">
+        <div class="container container-main">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <!--arranging with style the elements inside of this div-->
+                    <style scoped>
+                        .why-donate-us {
+                            font-style: italic;
+                        }
+
+                        .span-why-donate-us {
+                            font-weight: bold;
+                        }
+                    </style>
+                    <h1 class="Header_help_donate "> Why donate us?</h1>
+                    <div>
+                        <i class="fas fa fa-check-circle" style="font-size:1.4em;"></i><span class="span-why-donate-us">
+    -
+    Our village sits on an ancient road
+</span>
+                    </div>
+                    <p class="why-donate-us">  This is the area where King David grazed his flock. Also ,it's a route that used to serve the pilgrims on the way to Jerusalem.</p>
+
+                    <div>
+                        <i class="fas fa fa-check-circle" style="font-size:1.4em;"></i><span class="span-why-donate-us">- We're located at an important security point</span>
+                        <p class="why-donate-us">Merchavei David maintains territorial continuity between Gush Etzion and Beit Shemesh.</p>
+                    </div>
+
+                    <div>
+                        <i class="fas fa fa-check-circle" style="font-size:1.4em;"></i><span class="span-why-donate-us">- It's a return home of the Jewish people</span>
+                        <p class="why-donate-us">Help us to deepen Jewish and Torah roots in our entire land.</p>
+                    </div>
+
+                    <div>
+                        <i class="fas fa fa-check-circle" style="font-size:1.4em;"></i><span class="span-why-donate-us">- We don't receive any financial aid at all </span>
+                        <p class="why-donate-us">We choose to settle the land of Israel with devotion .</p>
+                    </div>
+                </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div style="background:url(/images/CROPPED-TREES.jpg) no-repeat center; background-size:cover; position:relative;">
+                            <br>
+                            <br>
+                            <br>
+                            <h1 style="color:white; font-family:'FreightDispProMedium-Italic'; text-align: center;font-weight:400; font-size:1.5em;">Have a look at our stunning community </h1>
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a asp-area="" asp-controller="Home" asp-action="Gallery" class="button-for-about-us" style="font-family:Plantin, serif;border: white;border-style: solid;background-color:rgba(51, 122, 183,0.5);padding: 5px 5px 5px 5px; color:white ; transition: all 280ms ease-in-out; text-decoration:none; text-transform: uppercase; margin-left:25%;">To THE GALLERY</a>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div style="background:url(/images/CROPPED-HARVERSTS.jpg) no-repeat center; background-size:cover; position:relative;">
+                            <br>
+                            <br>
+                            <br>
+                            <h1 style="color:white; font-family:'FreightDispProMedium-Italic'; text-align: center;font-weight:400; font-size:1.5em;">Fell free to give us a hand,your help would be much  appreciated  </h1>
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="https://gush-etzion.org.il/project/bat-ayin-merhavei-david-synagogue/" class="button-for-about-us" style="font-family:Plantin, serif;border: white;border-style: solid;background-color:rgba(51, 122, 183,0.5);padding: 5px 5px 5px 5px; color:white ; transition: all 280ms ease-in-out; text-decoration:none; text-transform: uppercase; margin-left:25%;">TO DONATION PAGE</a>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    <!---<script>
+     function change() {
+         $('#lefti').addClass('animated bounceInLeft ');
+     }
+     </script>-->
+
+    <script>
+
+        $(document).ready(function () {
+            $('.hh').scroll(function () {
+                console.log("Scrolling window");
+            });
+        });
+    </script>
+
+</body>
+                        </html>

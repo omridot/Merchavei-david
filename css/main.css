@@ -1,0 +1,245 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.img-icon {
+    width: 300px;
+    height: auto;
+    opacity: 1;
+    z-index: 1;
+    margin-bottom: 200px;
+    margin-left: 45px;
+}
+    .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+/*
+#home{
+   color:black;
+}*/
+
+
+.Header_help_donate {
+    color: #286090;
+    font-size: 3rem;
+    
+}
+
+.p_help_donate {
+    font-size: 2rem;
+    font-family: 'Alef', sans-serif;
+}
+
+.bg-light {
+    transition: 500ms ease;
+    visibility: hidden;
+}
+.scrolled {
+    background-color: white !important;
+    visibility: visible;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 0 2px;
+    
+}
+
+.color_overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#fff;
+    opacity:0.2;
+     
+}
+    
+#fixed{
+ background :url(/images/daniel-sheep2S.JPG) no-repeat center center fixed;
+    display:table;
+    height:60%;
+    position:relative;
+    width:100%;
+    background-size:cover;
+    font-size:large;
+    color:transparent;
+}
+
+.padding {
+    padding: 80px 0;
+   
+ 
+   /* background-image: url(/images/green-olive-leaves.png);*/
+}
+
+.padding img{
+    width:100%;
+}
+
+.header_rabi {
+    color: #286090;
+    text-align: center;
+    font-family: 'Alef', sans-serif;
+}
+
+.body-content, .footer {
+
+    width: 100%;
+    height: 40px;
+}
+
+
+.navbar-links {
+    line-height: 70px;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    height: 65px;
+    width: 120px;
+    background-color: #61892f;
+    cursor: pointer;
+    padding-top: 0;
+ 
+}
+    .navbar-links:hover {
+        color: #353441;
+        background: #fff;
+        
+    }
+/*
+
+        /*FROM HERE ITS NAVBAR ITEMS CSS*/
+
+        #imgLOGO {
+            width: 60px;
+            height: auto;
+            margin-left: 900%;
+        }
+
+
+        .image_on {
+            width: 65px;
+            height: auto;
+            padding-top: 3px;
+        }
+
+        .image_off {
+            width: 65px;
+            height: auto;
+            padding-top: 3px;
+        }
+
+        .image_off, #home:hover .image_on {
+            display: none
+        }
+
+        .image_on, #home:hover .image_off {
+            display: block;
+        }
+
+        #home, .face {
+            padding: 0 0;
+            margin: 0 0;
+        }
+
+        #home {
+            position: relative;
+            left: 216%;
+            background-color: transparent;
+        }
+
+        .nav-link {
+            /* display: block;*/
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            right: -15px;
+            height: 65px;
+            width: 60%;
+            line-height: 70px;
+            font-size: 1em;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            background-color: #286090;
+            cursor: pointer;
+        }
+
+            .nav-link:hover {
+                text-decoration: none;
+                background: #337ab7;
+                color: white;
+                text-shadow: 1px 1px black;
+            }
+            .lead{
+                font-size:17px;
+            }
+
+            /**index page css elements*/
+
+@media screen and (max-width: 994px) {
+    .body-back {
+        perspective: inherit;
+    }
+}
+
